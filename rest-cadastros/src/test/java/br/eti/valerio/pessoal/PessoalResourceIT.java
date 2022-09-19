@@ -1,9 +1,9 @@
-package br.eti.valerio.cadastros;
+package br.eti.valerio.pessoal;
 
 import io.quarkus.test.junit.QuarkusIntegrationTest;
 
 @QuarkusIntegrationTest
-public class CadastrosResourceIT extends CadastrosResourceTest {
+public class PessoalResourceIT extends PessoalResourceTest {
 
     // Execute the same tests but in native mode.
 }

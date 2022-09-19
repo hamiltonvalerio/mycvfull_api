@@ -1,4 +1,4 @@
-package br.eti.valerio.cadastros;
+package br.eti.valerio.pessoal;
 
 import io.quarkus.test.junit.QuarkusTest;
 import org.junit.jupiter.api.Test;
@@ -7,7 +7,7 @@ import static io.restassured.RestAssured.given;
 import static org.hamcrest.CoreMatchers.is;
 
 @QuarkusTest
-public class CadastrosResourceTest {
+public class PessoalResourceTest {
 
     @Test
     public void testHelloEndpoint() {
