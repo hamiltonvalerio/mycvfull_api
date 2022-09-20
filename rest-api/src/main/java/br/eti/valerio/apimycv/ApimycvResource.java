@@ -1,4 +1,4 @@
-package br.eti.valerio.api;
+package br.eti.valerio.apimycv;
 
 import javax.ws.rs.Consumes;
 import javax.ws.rs.GET;
@@ -12,7 +12,7 @@ import io.quarkus.security.Authenticated;
 @Authenticated
 @Produces(MediaType.APPLICATION_JSON)
 @Consumes(MediaType.APPLICATION_JSON)
-public class ApiResource {
+public class ApimycvResource {
 
     @GET
     @Produces(MediaType.TEXT_PLAIN)
