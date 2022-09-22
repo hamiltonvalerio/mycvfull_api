@@ -4,7 +4,7 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 
 @Entity
-public class Tipo {
+public class TipoPessoa {
 	@Id
 	private Long id;
 	

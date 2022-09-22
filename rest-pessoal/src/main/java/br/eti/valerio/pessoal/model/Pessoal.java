@@ -23,7 +23,7 @@ public class Pessoal {
 	
 	private List<Endereco> endereco;
 	
-	private Tipo tipo;
+	private TipoPessoa tipoPessoa;
 	
 	private String resumo;
 	
